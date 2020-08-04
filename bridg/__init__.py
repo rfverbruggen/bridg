@@ -11,6 +11,6 @@ def create_app():
     """Return an Flask app instance."""
     app = Flask(__name__)
 
-    app.add_url_rule('/', 'index', index)
+    app.add_url_rule("/", "index", index)
 
     return app
