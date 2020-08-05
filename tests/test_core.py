@@ -13,5 +13,5 @@ class CoreTestCase(unittest.TestCase):
 
     def test_home(self):
         """Test the home page."""
-        result = self.app.get('/')
+        result = self.app.get("/")
         assert result.data == b"Hello World!"
